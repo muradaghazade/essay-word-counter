@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: grey;">
+    <div style="text-align: center;">
+        <div style="margin: 50px;">
+
+            <h1 style="color: beige;">{{words_count}} words in that text</h1>
+        </div>
+        <div style="margin: 50px;">
+            <p style="color: beige; font-size: 20px; width: 60%; margin: 0 auto; text-align: start;" >{{text}}</p>
+        </div>
+        <div style="margin: 50px;">
+            <a href="{{ url_for('index') }}">
+                <button style="border: none; padding: 15px; border-radius: 5px; font-size: 16px; width: 200px; margin: 50px;">Go back</button>
+            </a>
+        </div>
+    </div>
+   
+</body>
+</html>
